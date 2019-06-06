@@ -1,0 +1,31 @@
+{
+  "name": "academycoin",
+  "version": "1.0.0",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "lite-server": "^2.5.3",
+    "openzeppelin-solidity": "^2.3.0",
+    "truffle-hdwallet-provider": "^1.0.10",
+    "watchify": "^3.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "watchify src/js/app.js -o ./bundle.js",
+    "start": "lite-server -s ."
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/critesjosh/AcademyCoin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/critesjosh/AcademyCoin/issues"
+  },
+  "homepage": "https://github.com/critesjosh/AcademyCoin#readme",
+  "description": ""
+}
